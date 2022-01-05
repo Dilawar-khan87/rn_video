@@ -12,7 +12,6 @@ export default function App() {
         disableBack={true}
         onError={e => alert('error in playing video')}
         onEnd={() => alert('video ended')}
-        // onEnd={() => {return <Button title='ended' onPress={alert('okaaa')}/>}}
       />
     </View>
   );
